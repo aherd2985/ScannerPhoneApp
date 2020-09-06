@@ -12,11 +12,13 @@ namespace Todo
         {
             InitializeComponent();
 
-            var nav = new NavigationPage(new TodoListPage());
-            nav.BarBackgroundColor = (Color)App.Current.Resources["primaryColor"];
-            nav.BarTextColor = Color.White;
+      var nav = new NavigationPage(new LandingPageCS())
+      {
+        BarBackgroundColor = (Color)App.Current.Resources["primaryColor"],
+        BarTextColor = Color.White
+      };
 
-            MainPage = nav;
+      MainPage = nav;
         }
 
         public static TodoItemDatabase Database

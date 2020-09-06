@@ -1171,32 +1171,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/andrew.herd/.nuget/packages/": {}
+    "C:\\Users\\aherd\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj",
-      "projectName": "TodoiOS",
-      "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj",
-      "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-      "outputPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/obj/",
+      "projectUniqueName": "D:\\Programming\\phoneApp\\Todo.iOS\\Todo.iOS.csproj",
+      "projectName": "Todo.iOS",
+      "projectPath": "D:\\Programming\\phoneApp\\Todo.iOS\\Todo.iOS.csproj",
+      "packagesPath": "C:\\Users\\aherd\\.nuget\\packages\\",
+      "outputPath": "D:\\Programming\\phoneApp\\Todo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/andrew.herd/.config/NuGet/NuGet.Config"
+        "C:\\Users\\aherd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj": {
-              "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj"
+            "D:\\Programming\\phoneApp\\Todo\\Todo.csproj": {
+              "projectPath": "D:\\Programming\\phoneApp\\Todo\\Todo.csproj"
             }
           }
         }

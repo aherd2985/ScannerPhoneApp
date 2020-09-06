@@ -13,7 +13,7 @@
 namespace Todo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/TodoListPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\TodoListPage.xaml")]
     public partial class TodoListPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

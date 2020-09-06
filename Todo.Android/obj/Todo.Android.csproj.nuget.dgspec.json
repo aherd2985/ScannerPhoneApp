@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/Todo.Android.csproj": {}
+    "D:\\Programming\\phoneApp\\Todo.Android\\Todo.Android.csproj": {}
   },
   "projects": {
-    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/Todo.Android.csproj": {
+    "D:\\Programming\\phoneApp\\Todo.Android\\Todo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/Todo.Android.csproj",
-        "projectName": "QuickTodo.Android",
-        "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/Todo.Android.csproj",
-        "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-        "outputPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/",
+        "projectUniqueName": "D:\\Programming\\phoneApp\\Todo.Android\\Todo.Android.csproj",
+        "projectName": "Todo.Android",
+        "projectPath": "D:\\Programming\\phoneApp\\Todo.Android\\Todo.Android.csproj",
+        "packagesPath": "C:\\Users\\aherd\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\phoneApp\\Todo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/andrew.herd/.config/NuGet/NuGet.Config"
+          "C:\\Users\\aherd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj": {
-                "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj"
+              "D:\\Programming\\phoneApp\\Todo\\Todo.csproj": {
+                "projectPath": "D:\\Programming\\phoneApp\\Todo\\Todo.csproj"
               }
             }
           }
@@ -44,22 +50,28 @@
         }
       }
     },
-    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj": {
+    "D:\\Programming\\phoneApp\\Todo\\Todo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj",
+        "projectUniqueName": "D:\\Programming\\phoneApp\\Todo\\Todo.csproj",
         "projectName": "Todo",
-        "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj",
-        "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-        "outputPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/obj/",
+        "projectPath": "D:\\Programming\\phoneApp\\Todo\\Todo.csproj",
+        "packagesPath": "C:\\Users\\aherd\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\phoneApp\\Todo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/andrew.herd/.config/NuGet/NuGet.Config"
+          "C:\\Users\\aherd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,7 +113,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
