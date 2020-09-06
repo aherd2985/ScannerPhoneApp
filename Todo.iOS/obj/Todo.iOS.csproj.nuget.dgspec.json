@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj",
+        "projectName": "TodoiOS",
+        "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/Todo.iOS.csproj",
+        "packagesPath": "/Users/andrew.herd/.nuget/packages/",
+        "outputPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/andrew.herd/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj": {
+                "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj",
+        "projectName": "Todo",
+        "projectPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/Todo.csproj",
+        "packagesPath": "/Users/andrew.herd/.nuget/packages/",
+        "outputPath": "/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/andrew.herd/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1269, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
