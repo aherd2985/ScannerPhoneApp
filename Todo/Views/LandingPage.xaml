@@ -4,11 +4,14 @@
              x:Class="Todo.Views.LandingPage" Title="Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text=""
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button Text="GoTo" Clicked="OnGoToClicked" />
             <ImageButton Source="wifiKey.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
+            <ImageButton Source="ScanBtn.png"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand" />
         </StackLayout>

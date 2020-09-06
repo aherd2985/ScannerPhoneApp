@@ -25,14 +25,23 @@ namespace Todo
         HorizontalOptions = LayoutOptions.Center,
         VerticalOptions = LayoutOptions.CenterAndExpand
       };
-      imageButton.Clicked += OnImageButtonClicked; 
+      imageButton.Clicked += OnImageButtonClicked;
+
+      ImageButton imageScanBtn = new ImageButton
+      {
+        Source = "ScanBtn.png",
+        HorizontalOptions = LayoutOptions.Center,
+        VerticalOptions = LayoutOptions.CenterAndExpand
+      };
+      imageScanBtn.Clicked += OnImageButtonClicked;
 
       Content = new StackLayout
       {
         Children = {
-          new Label { Text = "Home of the Herd powered by Techno Herder" },
+          new Label { Text = "Home of the Herd <br />powered by Techno Herder" },
           saveButton,
-          imageButton
+          imageButton,
+          imageScanBtn
         }
       };
     }
