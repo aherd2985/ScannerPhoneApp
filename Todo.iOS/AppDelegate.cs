@@ -14,6 +14,7 @@ namespace Todo
 			UISwitch.Appearance.OnTintColor = UIColor.FromRGB(0x91, 0xCA, 0x47);
 
 			Forms.Init();
+			ZXing.Net.Mobile.Forms.iOS.Platform.Init();
 			LoadApplication(new App());
 			return base.FinishedLaunching(app, options);
 		}

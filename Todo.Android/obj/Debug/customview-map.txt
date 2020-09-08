@@ -27,6 +27,7 @@ LinearLayout;obj/Debug/res/layout/main.xml
 resources;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/values/attrs.xml
 resources;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/values/strings.xml
 resources;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/values/styles.xml
+resources;/Users/andrew.herd/Projects/phoneApp/Todo.Android/obj/Debug/lp/46/jl/res/values/strings.xml
 resources;obj/Debug/res/values/colors.xml
 resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
@@ -35,6 +36,7 @@ set;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/
 set;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/anim/exittoleft.xml
 set;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/anim/exittoright.xml
 string;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/values/strings.xml
+string;/Users/andrew.herd/Projects/phoneApp/Todo.Android/obj/Debug/lp/46/jl/res/values/strings.xml
 string;obj/Debug/res/values/strings.xml
 style;/Users/andrew.herd/Downloads/Xamarin_Forms___Todo/Todo.Android/obj/Debug/lp/43/jl/res/values/styles.xml
 style;obj/Debug/res/values/styles.xml

@@ -12,6 +12,7 @@ namespace Todo
     public LandingPageCS()
     {
       Title = "Home";
+      this.BackgroundColor = Color.LightGray;
 
       var saveButton = new Button { Text = "Save" };
       saveButton.Clicked += async (sender, e) =>
@@ -33,21 +34,25 @@ namespace Todo
         HorizontalOptions = LayoutOptions.Center,
         VerticalOptions = LayoutOptions.CenterAndExpand
       };
-      imageScanBtn.Clicked += OnImageButtonClicked;
+      imageScanBtn.Clicked += OnInvImgBtnClicked;
 
       Content = new StackLayout
       {
         Children = {
-          new Label { Text = "Home of the Herd <br />powered by Techno Herder" },
           saveButton,
           imageButton,
-          imageScanBtn
+          imageScanBtn,
+          new Label { Text = "Home of the Herd powered by Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 13, 0, 0, 20 ) }
         }
       };
     }
     void OnImageButtonClicked(object sender, EventArgs e)
     {
       Navigation.PushAsync(new WifiQRPage());
+    }
+    void OnInvImgBtnClicked(object sender, EventArgs e)
+    {
+      Navigation.PushAsync(new ScanPage());
     }
   }
 }

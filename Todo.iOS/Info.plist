@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Herd</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.Todo.iOS</string>
+	<string>com.TechnoHerder.Herd.iOS</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -13,7 +13,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>9.0</string>
+	<string>13.6</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -43,5 +43,7 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>Herd</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please allow access to the camera to scan barcodes</string>
 </dict>
 </plist>

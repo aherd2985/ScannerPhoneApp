@@ -43,3 +43,5 @@ Xamarin.Android.Support.VersionedParcelable
 Xamarin.Android.Support.ViewPager
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
+FastAndroidCamera
+ZXing.Net.Mobile.Forms.Android

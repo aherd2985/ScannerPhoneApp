@@ -1,0 +1,16 @@
+/Users/andrew.herd/Projects/phoneApp/Todo/bin/Release/netstandard2.0/Todo.deps.json
+/Users/andrew.herd/Projects/phoneApp/Todo/bin/Release/netstandard2.0/Todo.dll
+/Users/andrew.herd/Projects/phoneApp/Todo/bin/Release/netstandard2.0/Todo.pdb
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Views/LandingPage.xaml.g.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Views/TodoItemPage.xaml.g.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Views/TodoListPage.xaml.g.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Views/WifiQRPage.xaml.g.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.csproj.CoreCompileInputs.cache
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.AssemblyInfoInputs.cache
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.AssemblyInfo.cs
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/XamlC.stamp
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.dll
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.pdb
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Todo.csprojAssemblyReference.cache
+/Users/andrew.herd/Projects/phoneApp/Todo/obj/Release/netstandard2.0/Views/ScanPage.xaml.g.cs
