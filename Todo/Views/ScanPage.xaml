@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
              x:Class="Todo.Views.ScanPage"
-             Title="Scan Page" >
+             Title="Scan Code" BackgroundColor="Black" >
     <ContentPage.Content>
-        <Grid VerticalOptions="CenterAndExpand"
+        <Grid VerticalOptions="CenterAndExpand" BackgroundColor="Black"
               HorizontalOptions="CenterAndExpand">
-            <zxing:ZXingScannerView x:Name="scanView"
+            <zxing:ZXingScannerView x:Name="scanView" BackgroundColor="Black"
                                         OnScanResult="scanView_OnScanResult"
                                         IsScanning="True"
-                                        WidthRequest="300"
-                                        HeightRequest="500"
+                                        WidthRequest="400"
+                                        HeightRequest="700"
                                         VerticalOptions="CenterAndExpand"
                                         HorizontalOptions="CenterAndExpand"
                                         IsAnalyzing="True" />

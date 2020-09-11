@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj": {}
+    "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj": {}
   },
   "projects": {
-    "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj": {
+    "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj",
+        "projectUniqueName": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj",
         "projectName": "QuickTodoiOS",
-        "projectPath": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj",
+        "projectPath": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj",
         "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-        "outputPath": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/obj/",
+        "outputPath": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj": {
-                "projectPath": "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj"
+              "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj": {
+                "projectPath": "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj"
               }
             }
           }
@@ -55,14 +55,14 @@
         }
       }
     },
-    "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj": {
+    "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj",
+        "projectUniqueName": "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj",
         "projectName": "Todo",
-        "projectPath": "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj",
+        "projectPath": "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj",
         "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-        "outputPath": "/Users/andrew.herd/Projects/phoneApp/Todo/obj/",
+        "outputPath": "/Users/andrew.herd/Downloads/phoneApp/Todo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/andrew.herd/.config/NuGet/NuGet.Config"

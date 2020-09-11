@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Todo_Application_Main_string__
 Todo_Application_Main_string__:
-.file 1 "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Main.cs"
+.file 1 "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Main.cs"
 .loc 1 12 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -155,7 +155,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip Todo_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Todo_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/AppDelegate.cs"
+.file 2 "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -365,7 +365,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "4B5EF528-FA3F-4939-9D76-82B1B101F637"
+	.asciz "263EC4D4-E10D-4200-8C4E-166A0785C822"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -459,7 +459,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 153,99,12,255,0,95,122,2,201,125,104,222,234,43,144,251
+	.byte 196,211,193,171,255,196,130,114,168,178,71,39,252,192,58,142
 	.globl _mono_aot_module_QuickTodoiOS_info
 	.align 3
 _mono_aot_module_QuickTodoiOS_info:

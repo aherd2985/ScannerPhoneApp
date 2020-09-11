@@ -1,4 +1,4 @@
-/Users/andrew.herd/Projects/phoneApp/Todo.iOS/bin/iPhone/Release/QuickTodoiOS.exe
+/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/bin/iPhone/Release/QuickTodoiOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/System.dll
@@ -38,7 +38,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Debug.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/13.20.2.2/lib/mono/Xamarin.iOS/Facades/System.ObjectModel.dll
 /Users/andrew.herd/.nuget/packages/zxing.net.mobile/2.4.1/lib/Xamarin.iOS10/ZXingNetMobile.dll
-/Users/andrew.herd/Projects/phoneApp/Todo/bin/Release/netstandard2.0/Todo.dll
+/Users/andrew.herd/Downloads/phoneApp/Todo/bin/Release/netstandard2.0/Todo.dll
 /Users/andrew.herd/.nuget/packages/xamarin.forms/4.8.0.1269/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/andrew.herd/.nuget/packages/sqlite-net-pcl/1.6.292/lib/netstandard1.1/SQLite-net.dll
 /Users/andrew.herd/.nuget/packages/sqlitepclraw.core/1.1.13/lib/Xamarin.iOS10/SQLitePCLRaw.core.dll

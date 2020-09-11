@@ -8,7 +8,8 @@ namespace Todo
 
         public TodoListPageCS()
         {
-            Title = "Todo";
+            Title = "Saved Codes";
+      BackgroundColor = Color.Black;
 
             var toolbarItem = new ToolbarItem
             {
@@ -41,7 +42,7 @@ namespace Todo
                         Source = ImageSource.FromFile("check.png"),
                         HorizontalOptions = LayoutOptions.End
                     };
-                    tick.SetBinding(VisualElement.IsVisibleProperty, "Done");
+                    tick.SetBinding(VisualElement.IsVisibleProperty, "Sync");
 
                     var stackLayout = new StackLayout
                     {

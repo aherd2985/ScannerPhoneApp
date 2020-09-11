@@ -1440,11 +1440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj",
+      "projectUniqueName": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj",
       "projectName": "QuickTodoiOS",
-      "projectPath": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/Todo.iOS.csproj",
+      "projectPath": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/Todo.iOS.csproj",
       "packagesPath": "/Users/andrew.herd/.nuget/packages/",
-      "outputPath": "/Users/andrew.herd/Projects/phoneApp/Todo.iOS/obj/",
+      "outputPath": "/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1459,8 +1459,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj": {
-              "projectPath": "/Users/andrew.herd/Projects/phoneApp/Todo/Todo.csproj"
+            "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj": {
+              "projectPath": "/Users/andrew.herd/Downloads/phoneApp/Todo/Todo.csproj"
             }
           }
         }

@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{1902913C-BB6F-4CCB-9B90-1D0CAEECAF12}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo/Views/LandingPageCS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo/Views/TodoListPage.xaml">
     <Files>
-      <File FileName="Todo.iOS/Entitlements.plist" />
-      <File FileName="Todo.iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="Todo.iOS/Info.plist" />
+      <File FileName="Todo/Views/TodoItemPage.xaml" Line="10" Column="26" />
+      <File FileName="Todo/Views/TodoItemPageCS.cs" Line="22" Column="60" />
+      <File FileName="Todo/Views/TodoListPageCS.cs" Line="45" Column="75" />
+      <File FileName="Todo/Models/TodoItem.cs" Line="11" Column="25" />
+      <File FileName="Todo/Views/ScanPage.xaml.cs" Line="18" Column="8" />
       <File FileName="Todo/Views/LandingPage.xaml" Line="16" Column="55" />
-      <File FileName="Todo/Views/LandingPageCS.cs" Line="7" Column="7" />
-      <File FileName="Todo/Views/ScanPage.xaml" Line="10" Column="46" />
-      <File FileName="Todo/Views/ScanPage.xaml.cs" Line="15" Column="53" />
+      <File FileName="Todo/Views/LandingPageCS.cs" Line="17" Column="56" />
+      <File FileName="Todo/Views/ScanPage.xaml" Line="6" Column="55" />
+      <File FileName="Todo/Data/TodoItemDatabase.cs" Line="41" Column="37" />
+      <File FileName="Todo/Views/TodoListPage.xaml" Line="18" Column="81" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +27,8 @@
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="LandingPageCS.cs" selected="True" />
+                <Node name="ScanPage.xaml" expanded="True" />
+                <Node name="TodoListPage.xaml" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -34,7 +38,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
-  <MonoDevelop.Ide.ItemProperties.Targets.Todo.iOS automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget">
+  <MonoDevelop.Ide.ItemProperties.Targets.Todo.iOS automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.09f6f7242300b80c04ea810150476b42d3484bfa">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="97Z8S792NU" TeamId="K6R355V4D8" />
   </MonoDevelop.Ide.ItemProperties.Targets.Todo.iOS>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

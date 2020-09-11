@@ -2,60 +2,66 @@
 
 namespace Todo
 {
-    public class TodoItemPageCS : ContentPage
+  public class TodoItemPageCS : ContentPage
+  {
+    public TodoItemPageCS()
     {
-        public TodoItemPageCS()
-        {
-            Title = "Todo Item";
+      Title = "Code";
+      this.BackgroundColor = Color.Black;
 
-            var nameEntry = new Entry();
-            nameEntry.SetBinding(Entry.TextProperty, "Name");
+      Entry nameEntry = new Entry();
+      nameEntry.SetBinding(Entry.TextProperty, "Name");
 
-            var notesEntry = new Entry();
-            notesEntry.SetBinding(Entry.TextProperty, "Notes");
+      Entry typeEntry = new Entry();
+      typeEntry.SetBinding(Entry.TextProperty, "Type");
 
-            var doneSwitch = new Switch();
-            doneSwitch.SetBinding(Switch.IsToggledProperty, "Done");
+      Entry notesEntry = new Entry();
+      notesEntry.SetBinding(Entry.TextProperty, "Code");
 
-            var saveButton = new Button { Text = "Save" };
-            saveButton.Clicked += async (sender, e) =>
-            {
-                var todoItem = (TodoItem)BindingContext;
-                await App.Database.SaveItemAsync(todoItem);
-                await Navigation.PopAsync();
-            };
+      Switch syncSwitch = new Switch();
+      syncSwitch.SetBinding(Switch.IsToggledProperty, "Sync");
 
-            var deleteButton = new Button { Text = "Delete" };
-            deleteButton.Clicked += async (sender, e) =>
-            {
-                var todoItem = (TodoItem)BindingContext;
-                await App.Database.DeleteItemAsync(todoItem);
-                await Navigation.PopAsync();
-            };
+      Button saveButton = new Button { Text = "Save" };
+      saveButton.Clicked += async (sender, e) =>
+      {
+        var todoItem = (TodoItem)BindingContext;
+        await App.Database.SaveItemAsync(todoItem);
+        await Navigation.PopAsync();
+      };
 
-            var cancelButton = new Button { Text = "Cancel" };
-            cancelButton.Clicked += async (sender, e) =>
-            {
-                await Navigation.PopAsync();
-            };
+      Button deleteButton = new Button { Text = "Delete" };
+      deleteButton.Clicked += async (sender, e) =>
+      {
+        var todoItem = (TodoItem)BindingContext;
+        await App.Database.DeleteItemAsync(todoItem);
+        await Navigation.PopAsync();
+      };
 
-            Content = new StackLayout
-            {
-                Margin = new Thickness(20),
-                VerticalOptions = LayoutOptions.StartAndExpand,
-                Children =
+      Button cancelButton = new Button { Text = "Cancel" };
+      cancelButton.Clicked += async (sender, e) =>
+      {
+        await Navigation.PopAsync();
+      };
+
+      Content = new StackLayout
+      {
+        Margin = new Thickness(20),
+        VerticalOptions = LayoutOptions.StartAndExpand,
+        Children =
                 {
-                    new Label { Text = "Name" },
+                    new Label { Text = "Name", TextColor = Color.LightGreen },
                     nameEntry,
-                    new Label { Text = "Notes" },
+                    new Label { Text = "Type", TextColor = Color.LightGreen },
+                    typeEntry,
+                    new Label { Text = "Code", TextColor = Color.LightGreen },
                     notesEntry,
-                    new Label { Text = "Done" },
-                    doneSwitch,
+                    new Label { Text = "Sync", TextColor = Color.LightGreen },
+                    syncSwitch,
                     saveButton,
                     deleteButton,
                     cancelButton
-                }
-            };
         }
+      };
     }
+  }
 }

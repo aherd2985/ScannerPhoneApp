@@ -12,9 +12,9 @@ namespace Todo
     public LandingPageCS()
     {
       Title = "Home";
-      this.BackgroundColor = Color.LightGray;
+      this.BackgroundColor = Color.FromHex("#161616");
 
-      var saveButton = new Button { Text = "Save" };
+      var saveButton = new Button { Text = "Saved Codes" };
       saveButton.Clicked += async (sender, e) =>
       {
         await Navigation.PushAsync(new TodoListPageCS());
@@ -32,7 +32,8 @@ namespace Todo
       {
         Source = "ScanBtn.png",
         HorizontalOptions = LayoutOptions.Center,
-        VerticalOptions = LayoutOptions.CenterAndExpand
+        VerticalOptions = LayoutOptions.CenterAndExpand,
+        BackgroundColor = Color.LightBlue
       };
       imageScanBtn.Clicked += OnInvImgBtnClicked;
 
@@ -42,7 +43,7 @@ namespace Todo
           saveButton,
           imageButton,
           imageScanBtn,
-          new Label { Text = "Home of the Herd powered by Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 13, 0, 0, 20 ) }
+          new Label { Text = "Home of the Herd powered by Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 25, 0, 0, 20 ) }
         }
       };
     }

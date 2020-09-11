@@ -40,7 +40,7 @@ namespace Todo
 
         public Task<List<TodoItem>> GetItemsNotDoneAsync()
         {
-            return Database.QueryAsync<TodoItem>("SELECT * FROM [TodoItem] WHERE [Done] = 0");
+            return Database.QueryAsync<TodoItem>("SELECT * FROM [TodoItem] WHERE [Sync] = 0");
         }
 
         public Task<TodoItem> GetItemAsync(int id)
