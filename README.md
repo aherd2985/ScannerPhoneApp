@@ -22,7 +22,7 @@ The app functionality is:
 - Set a code's status to be 'synced'.
 - Scan any barcode/QR code and save it to the phone.
 
-In all cases the tasks are stored in a local SQLite database.
+In all cases the codes are stored in a local SQLite database.
 
 For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
 
