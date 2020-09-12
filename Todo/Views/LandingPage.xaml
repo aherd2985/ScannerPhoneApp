@@ -4,7 +4,9 @@
              x:Class="Todo.Views.LandingPage" Title="Home">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="GoTo" Clicked="OnGoToClicked" />
+            <ImageButton Source="code.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" />
             <ImageButton Source="wifiKey.png"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand" />

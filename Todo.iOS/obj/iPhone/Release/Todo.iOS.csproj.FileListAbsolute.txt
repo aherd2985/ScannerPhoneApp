@@ -162,3 +162,4 @@
 /Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/iPhone/Release/Todo.iOS.csproj.CopyComplete
 /Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/iPhone/Release/QuickTodoiOS.exe
 /Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/iPhone/Release/QuickTodoiOS.pdb
+/Users/andrew.herd/Downloads/phoneApp/Todo.iOS/obj/iPhone/Release/optimized/code.png

@@ -16,10 +16,5 @@ namespace Todo.Views
     {
       InitializeComponent();
     }
-
-    async void OnGoToClicked(object sender, EventArgs e)
-    {
-      await Navigation.PushAsync(new TodoListPageCS());
-    }
   }
 }

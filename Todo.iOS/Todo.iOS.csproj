@@ -133,6 +133,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\code.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{1902913C-BB6F-4CCB-9B90-1D0CAEECAF12}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo/Views/ScanPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo/Views/LandingPageCS.cs">
     <Files>
-      <File FileName="Todo/Views/GenerateCode.xaml" Line="10" Column="140" />
-      <File FileName="Todo/Views/TodoItemPageCS.cs" Line="17" Column="49" />
+      <File FileName="Todo/Views/GenerateCode.xaml" Line="10" Column="133" />
+      <File FileName="Todo/Views/TodoItemPageCS.cs" Line="17" Column="53" />
       <File FileName="Todo/Views/TodoItemPage.xaml" Line="7" Column="35" />
       <File FileName="Todo/Views/TodoItemPage.xaml.cs" Line="36" Column="66" />
       <File FileName="Todo/Views/TodoListPageCS.cs" Line="63" Column="66" />
       <File FileName="Todo/Views/ScanPage.xaml.cs" Line="22" Column="21" />
+      <File FileName="Todo/Views/WifiQRPageCS.cs" Line="24" Column="21" />
+      <File FileName="Todo/Views/WifiQRPage.xaml" Line="10" Column="15" />
+      <File FileName="Todo/Views/LandingPage.xaml" Line="7" Column="1" />
+      <File FileName="Todo/Views/LandingPage.xaml.cs" Line="18" Column="6" />
+      <File FileName="Todo/Views/LandingPageCS.cs" Line="29" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +20,11 @@
             <Node name="Targets" expanded="True">
               <Node name="Todo.Android" expanded="True">
                 <Node name="Properties" expanded="True" />
+                <Node name="Resources" expanded="True" />
               </Node>
-              <Node name="Todo.iOS" expanded="True" />
+              <Node name="Todo.iOS" expanded="True">
+                <Node name="Resources" expanded="True" />
+              </Node>
             </Node>
             <Node name="Todo" expanded="True">
               <Node name="Dependencies" expanded="True">
@@ -27,9 +35,9 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="GenerateCode.xaml" expanded="True" />
-                <Node name="ScanPage.xaml" expanded="True">
-                  <Node name="ScanPage.xaml.cs" selected="True" />
-                </Node>
+                <Node name="LandingPage.xaml" expanded="True" />
+                <Node name="LandingPageCS.cs" selected="True" />
+                <Node name="ScanPage.xaml" expanded="True" />
                 <Node name="TodoItemPage.xaml" expanded="True" />
               </Node>
             </Node>

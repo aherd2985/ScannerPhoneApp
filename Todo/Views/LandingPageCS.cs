@@ -14,11 +14,13 @@ namespace Todo
       Title = "Home";
       this.BackgroundColor = Color.FromHex("#161616");
 
-      var saveButton = new Button { Text = "Saved Codes" };
-      saveButton.Clicked += async (sender, e) =>
+      ImageButton codeButton = new ImageButton
       {
-        await Navigation.PushAsync(new TodoListPageCS());
+        Source = "code.png",
+        HorizontalOptions = LayoutOptions.Center,
+        VerticalOptions = LayoutOptions.CenterAndExpand
       };
+      codeButton.Clicked += OnCodeImageButtonClicked;
 
       ImageButton imageButton = new ImageButton
       {
@@ -40,7 +42,7 @@ namespace Todo
       Content = new StackLayout
       {
         Children = {
-          saveButton,
+          codeButton,
           imageButton,
           imageScanBtn,
           new Label { Text = "Home of the Herd powered by Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 25, 0, 0, 20 ) }
@@ -54,6 +56,10 @@ namespace Todo
     void OnInvImgBtnClicked(object sender, EventArgs e)
     {
       Navigation.PushAsync(new ScanPage());
+    }
+    void OnCodeImageButtonClicked(object sender, EventArgs e)
+    {
+      Navigation.PushAsync(new TodoListPageCS());
     }
   }
 }

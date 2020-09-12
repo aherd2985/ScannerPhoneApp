@@ -459,7 +459,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 22,158,53,254,98,154,34,77,195,25,83,218,214,174,122,20
+	.byte 173,32,223,246,244,127,158,29,31,150,184,25,147,232,76,72
 	.globl _mono_aot_module_QuickTodoiOS_info
 	.align 3
 _mono_aot_module_QuickTodoiOS_info:

@@ -11,6 +11,7 @@ namespace Todo.Views
   {
     public WifiQRPageCS()
     {
+      Title = "Connect 2 WiFi";
       Image img = new Image
       {
         Source = "wifiQR.PNG",
