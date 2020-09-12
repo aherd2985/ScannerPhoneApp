@@ -17,8 +17,8 @@
 /Users/andrew.herd/Downloads/phoneApp/Todo/bin/Release/netstandard2.0/Todo.deps.json
 /Users/andrew.herd/Downloads/phoneApp/Todo/bin/Release/netstandard2.0/Todo.dll
 /Users/andrew.herd/Downloads/phoneApp/Todo/bin/Release/netstandard2.0/Todo.pdb
-/Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Todo.csprojAssemblyReference.cache
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/GenerateCode.xaml.g.cs
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/LandingPage.xaml.g.cs
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/ScanPage.xaml.g.cs
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/TodoItemPage.xaml.g.cs
@@ -30,4 +30,3 @@
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/XamlC.stamp
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Todo.dll
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Todo.pdb
-/Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/GenerateCode.xaml.g.cs
