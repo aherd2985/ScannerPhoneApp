@@ -1,6 +1,6 @@
 ---
-name: Xamarin.Forms - Todo
-description: 'This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database (get started)'
+name: Xamarin.Forms - Simple Scanner Application
+description: 'This sample demonstrates a Scanner application where the data is stored and accessed in a local SQLite database, easy starting off point'
 page_type: sample
 languages:
 - csharp
@@ -9,21 +9,22 @@ products:
 extensions:
     tags:
     - getstarted
-urlFragment: todo
+urlFragment: scanner
 ---
-# Todo
+# Simple Scanner Application
 
-This sample demonstrates a Todo list application where the data is stored and accessed in a local SQLite database.
+This sample demonstrates a Scanner application where the data is stored and accessed in a local SQLite database.
 
 The app functionality is:
 
-- View a list of tasks.
-- Add a new item to the list of tasks.
-- Set a task's status to 'completed'.
+- View a list of saved codes.
+- Add a new code to the list.
+- Set a code's status to be 'synced'.
+- Scan any barcode/QR code and save it to the phone.
 
 In all cases the tasks are stored in a local SQLite database.
 
 For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
 
-![Todo application screenshot](Screenshots/01All.png "Todo application screenshot")
+![Simple Scanner Application screenshot](Screenshots/01All.png "Simple Scanner Application screenshot 1")(Screenshots/02All.png "Simple Scanner Application screenshot deux")
 
