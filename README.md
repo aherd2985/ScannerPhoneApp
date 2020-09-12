@@ -26,5 +26,6 @@ In all cases the tasks are stored in a local SQLite database.
 
 For more information about the sample see [Working with a Local Database](https://docs.microsoft.com/xamarin/xamarin-forms/data-cloud/data/databases).
 
-![Simple Scanner Application screenshot](Screenshots/01All.png "Simple Scanner Application screenshot 1")(Screenshots/02All.png "Simple Scanner Application screenshot deux")
+![Simple Scanner Application screenshot](Screenshots/01All.png "Simple Scanner Application screenshot 1")
+![Simple Scanner Application screenshot](Screenshots/02All.png "Simple Scanner Application screenshot deux")
 
