@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{1902913C-BB6F-4CCB-9B90-1D0CAEECAF12}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Todo.Android/Properties/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Todo/Views/ScanPage.xaml.cs">
     <Files>
-      <File FileName="Todo.iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="Todo.Android/MainActivity.cs" Line="24" Column="50" />
-      <File FileName="Todo.Android/Properties/AndroidManifest.xml" />
+      <File FileName="Todo/Views/GenerateCode.xaml" Line="10" Column="140" />
+      <File FileName="Todo/Views/TodoItemPageCS.cs" Line="17" Column="49" />
+      <File FileName="Todo/Views/TodoItemPage.xaml" Line="7" Column="35" />
+      <File FileName="Todo/Views/TodoItemPage.xaml.cs" Line="36" Column="66" />
+      <File FileName="Todo/Views/TodoListPageCS.cs" Line="63" Column="66" />
+      <File FileName="Todo/Views/ScanPage.xaml.cs" Line="22" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +14,9 @@
           <Node name="Todo" expanded="True">
             <Node name="Targets" expanded="True">
               <Node name="Todo.Android" expanded="True">
-                <Node name="Properties" expanded="True">
-                  <Node name="AndroidManifest.xml" selected="True" />
-                </Node>
+                <Node name="Properties" expanded="True" />
               </Node>
+              <Node name="Todo.iOS" expanded="True" />
             </Node>
             <Node name="Todo" expanded="True">
               <Node name="Dependencies" expanded="True">
@@ -23,7 +25,13 @@
               </Node>
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="GenerateCode.xaml" expanded="True" />
+                <Node name="ScanPage.xaml" expanded="True">
+                  <Node name="ScanPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="TodoItemPage.xaml" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

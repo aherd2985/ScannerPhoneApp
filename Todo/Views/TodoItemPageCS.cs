@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using Todo.Views;
+using Xamarin.Forms;
 
 namespace Todo
 {
@@ -13,7 +14,7 @@ namespace Todo
       nameEntry.SetBinding(Entry.TextProperty, "Name");
 
       Entry typeEntry = new Entry();
-      typeEntry.SetBinding(Entry.TextProperty, "Type");
+      typeEntry.SetBinding(Entry.TextProperty, "CodeType");
 
       Entry notesEntry = new Entry();
       notesEntry.SetBinding(Entry.TextProperty, "Code");
@@ -43,6 +44,15 @@ namespace Todo
         await Navigation.PopAsync();
       };
 
+      Button previewButton = new Button { Text = "Preview" };
+      previewButton.Clicked += async (sender, e) =>
+      {
+        await Navigation.PushAsync(new GenerateCode
+        {
+          BindingContext = (TodoItem)BindingContext
+        });
+      };
+
       Content = new StackLayout
       {
         Margin = new Thickness(20),
@@ -59,7 +69,8 @@ namespace Todo
                     syncSwitch,
                     saveButton,
                     deleteButton,
-                    cancelButton
+                    cancelButton,
+                    previewButton
         }
       };
     }

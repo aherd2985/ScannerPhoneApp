@@ -30,3 +30,4 @@
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/XamlC.stamp
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Todo.dll
 /Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Todo.pdb
+/Users/andrew.herd/Downloads/phoneApp/Todo/obj/Release/netstandard2.0/Views/GenerateCode.xaml.g.cs

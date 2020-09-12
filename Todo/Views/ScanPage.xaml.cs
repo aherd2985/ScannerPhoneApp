@@ -19,7 +19,7 @@ namespace Todo.Views
         TodoItem newItem = new TodoItem();
         newItem.Name = result.BarcodeFormat.ToString();
         newItem.Code = result.Text;
-        newItem.Type = result.BarcodeFormat.ToString();
+        newItem.CodeType = result.BarcodeFormat.ToString();
         await App.Database.SaveItemAsync(newItem);
         await DisplayAlert("Scanned result", "The barcode's text is " + result.Text + ". The barcode's format is " + result.BarcodeFormat, "OK");
       });

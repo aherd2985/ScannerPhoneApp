@@ -4,7 +4,7 @@
         <Label Text="Name" />
         <Entry Text="{Binding Name}" />
         <Label Text="Type" />
-        <Entry Text="{Binding Type}" />
+        <Entry Text="{Binding CodeType}" />
         <Label Text="Code" />
         <Entry Text="{Binding Code}" />
         <Label Text="Sync" />
@@ -12,5 +12,6 @@
         <Button Text="Save" Clicked="OnSaveClicked" />
         <Button Text="Delete" Clicked="OnDeleteClicked" />
         <Button Text="Cancel" Clicked="OnCancelClicked" />
+        <Button Text="Preview" Clicked="OnPreviewClicked" />
     </StackLayout>
 </ContentPage>
