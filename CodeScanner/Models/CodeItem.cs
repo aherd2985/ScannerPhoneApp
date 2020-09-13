@@ -10,6 +10,6 @@ namespace CodeScanner
         public string Code { get; set; }
         public bool Sync { get; set; }
         public string CodeType { get; set; }
-  }
+    }
 }
 
