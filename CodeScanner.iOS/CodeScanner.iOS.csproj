@@ -159,11 +159,6 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\wifiQR.PNG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </BundleResource>
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\ScanBtn.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>

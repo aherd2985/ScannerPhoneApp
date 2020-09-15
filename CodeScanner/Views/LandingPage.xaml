@@ -7,9 +7,6 @@
             <ImageButton Source="code.png"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand" />
-            <ImageButton Source="wifiKey.png"
-                    HorizontalOptions="Center"
-                    VerticalOptions="CenterAndExpand" />
             <ImageButton Source="ScanBtn.png"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand" />

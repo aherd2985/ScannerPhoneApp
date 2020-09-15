@@ -2,15 +2,45 @@
   <MonoDevelop.Ide.ItemProperties.Targets.CodeScanner.iOS automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.09f6f7242300b80c04ea810150476b42d3484bfa">
     <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="97Z8S792NU" TeamId="K6R355V4D8" />
   </MonoDevelop.Ide.ItemProperties.Targets.CodeScanner.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CodeScanner.iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeScanner/Views/LandingPage.xaml">
     <Files>
       <File FileName="CodeScanner.Android/Resources/values/Strings.xml" Line="6" Column="1" />
       <File FileName="CodeScanner.Android/Properties/AssemblyInfo.cs" />
-      <File FileName="CodeScanner.Android/Properties/AndroidManifest.xml" />
-      <File FileName="CodeScanner.iOS/Resources/LaunchScreen.storyboard" />
       <File FileName="CodeScanner.Android/MainActivity.cs" />
       <File FileName="CodeScanner.iOS/Info.plist" />
+      <File FileName="CodeScanner/Views/LandingPage.xaml" Line="1" Column="1" />
+      <File FileName="CodeScanner/Views/LandingPageCS.cs" />
+      <File FileName="CodeScanner/Views/CodeListPageCS.cs" />
+      <File FileName="CodeScanner/Views/CodeListPage.xaml" />
+      <File FileName="CodeScanner/Views/CodeItemPageCS.cs" />
+      <File FileName="CodeScanner/Views/LandingPage.xaml.cs" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeScanner" expanded="True">
+            <Node name="Targets" expanded="True">
+              <Node name="CodeScanner.Android" expanded="True">
+                <Node name="Properties" expanded="True" />
+                <Node name="Resources" expanded="True">
+                  <Node name="values" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="CodeScanner.iOS" expanded="True">
+                <Node name="Resources" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CodeScanner" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LandingPage.xaml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>

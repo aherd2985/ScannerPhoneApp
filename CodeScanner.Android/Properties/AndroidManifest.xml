@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="19" />
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.FLASHLIGHT" />
-	<application android:icon="@drawable/check2x" android:label="CodeScanner"></application>
+	<application android:icon="@drawable/check2x" android:label="CodeHerd"></application>
 </manifest>

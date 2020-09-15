@@ -22,14 +22,6 @@ namespace CodeScanner
       };
       codeButton.Clicked += OnCodeImageButtonClicked;
 
-      ImageButton imageButton = new ImageButton
-      {
-        Source = "wifiKey.png",
-        HorizontalOptions = LayoutOptions.Center,
-        VerticalOptions = LayoutOptions.CenterAndExpand
-      };
-      imageButton.Clicked += OnImageButtonClicked;
-
       ImageButton imageScanBtn = new ImageButton
       {
         Source = "ScanBtn.png",
@@ -43,15 +35,10 @@ namespace CodeScanner
       {
         Children = {
           codeButton,
-          imageButton,
           imageScanBtn,
-          new Label { Text = "Home of the Herd powered by Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 25, 0, 0, 20 ) }
+          new Label { Text = "Techno Herder", TextColor = Color.LightGreen, Padding = new Thickness( 25, 0, 0, 20 ) }
         }
       };
-    }
-    void OnImageButtonClicked(object sender, EventArgs e)
-    {
-      Navigation.PushAsync(new WifiQRPage());
     }
     void OnInvImgBtnClicked(object sender, EventArgs e)
     {

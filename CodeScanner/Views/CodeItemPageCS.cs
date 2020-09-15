@@ -44,7 +44,7 @@ namespace CodeScanner
         await Navigation.PopAsync();
       };
 
-      Button previewButton = new Button { Text = "Preview" };
+      Button previewButton = new Button { Text = "QR Preview" };
       previewButton.Clicked += async (sender, e) =>
       {
         await Navigation.PushAsync(new GenerateCode
