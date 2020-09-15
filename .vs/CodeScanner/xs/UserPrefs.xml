@@ -5,36 +5,12 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="CodeScanner.iOS/Info.plist">
     <Files>
       <File FileName="CodeScanner.Android/Resources/values/Strings.xml" Line="6" Column="1" />
-      <File FileName="CodeScanner.Android/Properties/AssemblyInfo.cs" Line="7" Column="36" />
+      <File FileName="CodeScanner.Android/Properties/AssemblyInfo.cs" />
       <File FileName="CodeScanner.Android/Properties/AndroidManifest.xml" />
       <File FileName="CodeScanner.iOS/Resources/LaunchScreen.storyboard" />
-      <File FileName="CodeScanner.Android/MainActivity.cs" Line="7" Column="26" />
+      <File FileName="CodeScanner.Android/MainActivity.cs" />
       <File FileName="CodeScanner.iOS/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CodeScanner" expanded="True">
-            <Node name="Targets" expanded="True">
-              <Node name="CodeScanner.Android" expanded="True">
-                <Node name="Properties" expanded="True" />
-                <Node name="Resources" expanded="True">
-                  <Node name="values" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="CodeScanner.iOS" expanded="True">
-                <Node name="Info.plist" selected="True" />
-              </Node>
-            </Node>
-            <Node name="CodeScanner" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
