@@ -10,8 +10,8 @@
             <zxing:ZXingScannerView x:Name="scanView" BackgroundColor="Black"
                                         OnScanResult="scanView_OnScanResult"
                                         IsScanning="True"
-                                        WidthRequest="400"
-                                        HeightRequest="700"
+                                        WidthRequest="350"
+                                        HeightRequest="500"
                                         VerticalOptions="CenterAndExpand"
                                         HorizontalOptions="CenterAndExpand"
                                         IsAnalyzing="True" />
