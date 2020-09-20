@@ -11,6 +11,18 @@
     <NuGetPackageImportStamp />
     <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
     <AssemblyName>CodeScanneriOS</AssemblyName>
+    <ReleaseVersion>2.1.7</ReleaseVersion>
+    <PackageId>com.technoherder.codeherd</PackageId>
+    <PackageVersion>2.1.3</PackageVersion>
+    <Authors>Andrew Herd</Authors>
+    <Copyright>2020 Techno Herder</Copyright>
+    <PackageLicenseUrl>https://technoherder.com/privacy-policy.html</PackageLicenseUrl>
+    <Owners>Andrew Herd</Owners>
+    <PackageProjectUrl>https://technoherder.com/phoneApp.php</PackageProjectUrl>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Summary>Working proof-of-concept</Summary>
+    <Title>CodeHerd</Title>
+    <Description>Working proof-of-concept starting point to guide others to build their own phone applications for business use cases.</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,8 +54,7 @@
     <AssemblyName>CodeScanneriOS</AssemblyName>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <CodesignProvision>VS: WildCard Development</CodesignProvision>
-    <CodesignKey>Apple Development: Andrew Herd (4NG9F6TJZG)</CodesignKey>
+    <CodesignKey>Apple Distribution: Andrew Herd (K6R355V4D8)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,7 +75,6 @@
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
-    <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhone\Release</OutputPath>
     <DefineConstants>__MOBILE__;__IOS__;</DefineConstants>
@@ -72,11 +82,12 @@
     <WarningLevel>4</WarningLevel>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>Apple Development: Andrew Herd (4NG9F6TJZG)</CodesignKey>
+    <CodesignKey>Apple Distribution: Andrew Herd (K6R355V4D8)</CodesignKey>
     <AssemblyName>QuickCodeScanneriOS</AssemblyName>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
-    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+<MtouchFloat32>true</MtouchFloat32>
+<CodesignProvision>Automatic:AppStore</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>full</DebugType>
@@ -110,7 +121,7 @@
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -121,18 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\Icon.png" />
     <BundleResource Include="Resources\check%402x.png" />
     <BundleResource Include="Resources\check.png" />
-    <BundleResource Include="Resources\Icon-60%402x.png" />
-    <BundleResource Include="Resources\Icon%402x.png" />
-    <BundleResource Include="Resources\Icon-Small%402x.png" />
-    <BundleResource Include="Resources\Icon-Small.png" />
     <BundleResource Include="Resources\Default%402x.png" />
     <BundleResource Include="Resources\Default.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>
-    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
     <BundleResource Include="Resources\code.png" />
   </ItemGroup>
   <ItemGroup>
@@ -164,7 +169,64 @@
     </BundleResource>
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Media.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Media.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%403x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%402x-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%402x-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40-2.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40%402x-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\76.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\152.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\167.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%402x-2.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%403x-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%402x-2.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%403x-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Spotlight-40%402x-2.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\512.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\512-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\256.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\256-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\128.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\64.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\32.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\32-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\16.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\216.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\196.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\172.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\100.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\88.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\55.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\48.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\20.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon-2.appiconset\Icon-Small-40%402x.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\iTunesArtwork-1.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\iTunesArtwork.png" />
+    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\iTunesArtwork-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Media.xcassets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="Resources\iTunesArtwork.png" />
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup />
